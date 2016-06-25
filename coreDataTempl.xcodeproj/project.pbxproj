@@ -13,6 +13,9 @@
 		4208CBFE1D1A1A620022DFDC /* coreDataTempl.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4208CBFC1D1A1A620022DFDC /* coreDataTempl.xcdatamodeld */; };
 		4208CC001D1A1A620022DFDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4208CBFF1D1A1A620022DFDC /* Assets.xcassets */; };
 		4208CC031D1A1A620022DFDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4208CC011D1A1A620022DFDC /* LaunchScreen.storyboard */; };
+		4208CC0C1D1A29D50022DFDC /* Studenci+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4208CC0A1D1A29D50022DFDC /* Studenci+CoreDataProperties.swift */; };
+		4208CC0D1D1A29D50022DFDC /* Studenci.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4208CC0B1D1A29D50022DFDC /* Studenci.swift */; };
+		421989001D1AE23000DEC97A /* edytujVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421988FF1D1AE23000DEC97A /* edytujVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		4208CBFF1D1A1A620022DFDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4208CC021D1A1A620022DFDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4208CC041D1A1A620022DFDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4208CC0A1D1A29D50022DFDC /* Studenci+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Studenci+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		4208CC0B1D1A29D50022DFDC /* Studenci.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Studenci.swift; sourceTree = "<group>"; };
+		421988FF1D1AE23000DEC97A /* edytujVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = edytujVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +46,8 @@
 		4208CBE91D1A1A610022DFDC = {
 			isa = PBXGroup;
 			children = (
+				4208CC0A1D1A29D50022DFDC /* Studenci+CoreDataProperties.swift */,
+				4208CC0B1D1A29D50022DFDC /* Studenci.swift */,
 				4208CBF41D1A1A620022DFDC /* coreDataTempl */,
 				4208CBF31D1A1A620022DFDC /* Products */,
 			);
@@ -63,6 +71,7 @@
 				4208CC011D1A1A620022DFDC /* LaunchScreen.storyboard */,
 				4208CC041D1A1A620022DFDC /* Info.plist */,
 				4208CBFC1D1A1A620022DFDC /* coreDataTempl.xcdatamodeld */,
+				421988FF1D1AE23000DEC97A /* edytujVC.swift */,
 			);
 			path = coreDataTempl;
 			sourceTree = "<group>";
@@ -138,8 +147,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4208CC0D1D1A29D50022DFDC /* Studenci.swift in Sources */,
+				421989001D1AE23000DEC97A /* edytujVC.swift in Sources */,
 				4208CBF81D1A1A620022DFDC /* ViewController.swift in Sources */,
 				4208CBF61D1A1A620022DFDC /* AppDelegate.swift in Sources */,
+				4208CC0C1D1A29D50022DFDC /* Studenci+CoreDataProperties.swift in Sources */,
 				4208CBFE1D1A1A620022DFDC /* coreDataTempl.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,6 +304,7 @@
 				4208CC091D1A1A630022DFDC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
